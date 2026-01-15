@@ -1,8 +1,0 @@
-prefix=/home/liu/kinova_ws/install
-
-Name: rqt_easy_handeye
-Description: Description of rqt_easy_handeye
-Version: 0.4.3
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

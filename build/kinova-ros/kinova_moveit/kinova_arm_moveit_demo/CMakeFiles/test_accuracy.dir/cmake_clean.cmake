@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/liu/kinova_ws/devel/lib/kinova_arm_moveit_demo/test_accuracy"
-  "/home/liu/kinova_ws/devel/lib/kinova_arm_moveit_demo/test_accuracy.pdb"
+  "/home/liu/kinova_volo/devel/lib/kinova_arm_moveit_demo/test_accuracy"
+  "/home/liu/kinova_volo/devel/lib/kinova_arm_moveit_demo/test_accuracy.pdb"
   "CMakeFiles/test_accuracy.dir/src/test_accuracy.cpp.o"
 )
 

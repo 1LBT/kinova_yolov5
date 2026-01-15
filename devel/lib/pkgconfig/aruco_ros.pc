@@ -1,8 +1,8 @@
-prefix=/home/liu/kinova_ws/devel
+prefix=/home/liu/kinova_volo/devel
 
 Name: aruco_ros
 Description: Description of aruco_ros
 Version: 3.1.4
-Cflags: -I/home/liu/kinova_ws/devel/include -I/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/include
+Cflags: -I/home/liu/kinova_volo/devel/include -I/home/liu/kinova_volo/src/aruco_ros/aruco_ros/include
 Libs: -L${prefix}/lib -laruco_ros_utils
 Requires: aruco sensor_msgs tf

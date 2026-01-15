@@ -1,4 +1,4 @@
-prefix=/home/liu/kinova_ws/devel
+prefix=/home/liu/kinova_volo/devel
 
 Name: easy_handeye
 Description: Description of easy_handeye

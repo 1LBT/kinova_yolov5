@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/liu/kinova_ws/devel/lib/libm1n6s300_mico_arm_moveit_ikfast_plugin.pdb"
-  "/home/liu/kinova_ws/devel/lib/libm1n6s300_mico_arm_moveit_ikfast_plugin.so"
+  "/home/liu/kinova_volo/devel/lib/libm1n6s300_mico_arm_moveit_ikfast_plugin.pdb"
+  "/home/liu/kinova_volo/devel/lib/libm1n6s300_mico_arm_moveit_ikfast_plugin.so"
   "CMakeFiles/m1n6s300_mico_arm_moveit_ikfast_plugin.dir/src/m1n6s300_mico_arm_ikfast_moveit_plugin.cpp.o"
 )
 

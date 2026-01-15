@@ -35,5 +35,7 @@
       <remap from="joint_states" to="/$(arg kinova_robotName)_driver/out/joint_state"/>
     </node>
   </group>
-
+<!-- 转发关节状态到标准话题 -->
+  <node name="joint_state_relay" pkg="topic_tools" type="relay" 
+        args="/m1n6s200_driver/out/joint_state /joint_states" />
 </launch>

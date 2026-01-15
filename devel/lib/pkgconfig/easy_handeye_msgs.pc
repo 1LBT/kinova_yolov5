@@ -1,8 +1,8 @@
-prefix=/home/liu/kinova_ws/devel
+prefix=/home/liu/kinova_volo/devel
 
 Name: easy_handeye_msgs
 Description: Description of easy_handeye_msgs
 Version: 0.4.3
-Cflags: -I/home/liu/kinova_ws/devel/include
+Cflags: -I/home/liu/kinova_volo/devel/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime std_msgs geometry_msgs

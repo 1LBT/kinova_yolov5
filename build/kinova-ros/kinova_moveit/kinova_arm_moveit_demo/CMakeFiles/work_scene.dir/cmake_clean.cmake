@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/liu/kinova_ws/devel/lib/kinova_arm_moveit_demo/work_scene"
-  "/home/liu/kinova_ws/devel/lib/kinova_arm_moveit_demo/work_scene.pdb"
+  "/home/liu/kinova_volo/devel/lib/kinova_arm_moveit_demo/work_scene"
+  "/home/liu/kinova_volo/devel/lib/kinova_arm_moveit_demo/work_scene.pdb"
   "CMakeFiles/work_scene.dir/src/work_scene.cpp.o"
 )
 

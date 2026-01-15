@@ -1,0 +1,8 @@
+prefix=/home/liu/kinova_volo/install
+
+Name: easy_aruco
+Description: Description of easy_aruco
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

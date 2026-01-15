@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/kinova_ws/src
+CMAKE_SOURCE_DIR = /home/liu/kinova_volo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/kinova_ws/build
+CMAKE_BINARY_DIR = /home/liu/kinova_volo/build
 
 # Utility rule file for moveit_ros_manipulation_gencfg.
 
@@ -63,10 +63,10 @@ kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/moveit_ros_manipulati
 .PHONY : kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/moveit_ros_manipulation_gencfg.dir/build
 
 kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/moveit_ros_manipulation_gencfg.dir/clean:
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo && $(CMAKE_COMMAND) -P CMakeFiles/moveit_ros_manipulation_gencfg.dir/cmake_clean.cmake
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo && $(CMAKE_COMMAND) -P CMakeFiles/moveit_ros_manipulation_gencfg.dir/cmake_clean.cmake
 .PHONY : kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/moveit_ros_manipulation_gencfg.dir/clean
 
 kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/moveit_ros_manipulation_gencfg.dir/depend:
-	cd /home/liu/kinova_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_ws/src /home/liu/kinova_ws/src/kinova-ros/kinova_moveit/kinova_arm_moveit_demo /home/liu/kinova_ws/build /home/liu/kinova_ws/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo /home/liu/kinova_ws/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/moveit_ros_manipulation_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/kinova_volo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_volo/src /home/liu/kinova_volo/src/kinova-ros/kinova_moveit/kinova_arm_moveit_demo /home/liu/kinova_volo/build /home/liu/kinova_volo/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo /home/liu/kinova_volo/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/moveit_ros_manipulation_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/moveit_ros_manipulation_gencfg.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/kinova_ws/src
+CMAKE_SOURCE_DIR = /home/liu/kinova_volo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/kinova_ws/build
+CMAKE_BINARY_DIR = /home/liu/kinova_volo/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/liu/kinova_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_ws/src /home/liu/kinova_ws/src /home/liu/kinova_ws/build /home/liu/kinova_ws/build /home/liu/kinova_ws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/kinova_volo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_volo/src /home/liu/kinova_volo/src /home/liu/kinova_volo/build /home/liu/kinova_volo/build /home/liu/kinova_volo/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

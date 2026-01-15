@@ -3,11 +3,11 @@ m1n6s200:
     constraints:
       goal_time: 1.0
       m1n6s200_joint_finger_1:
-        goal: 0.05
-        trajectory: 0.2
+        goal: 0.02
+        trajectory: 0.05
       m1n6s200_joint_finger_2:
-        goal: 0.05
-        trajectory: 0.2
+        goal: 0.02
+        trajectory: 0.05
       stopped_velocity_tolerance: 0.02
     gains:
       m1n6s200_joint_finger_1:
@@ -28,23 +28,23 @@ m1n6s200:
     constraints:
       goal_time: 1.0
       m1n6s200_joint_1:
-        goal: 0.05
-        trajectory: 0.2
+        goal: 0.02
+        trajectory: 0.05
       m1n6s200_joint_2:
-        goal: 0.05
-        trajectory: 0.2
+        goal: 0.02
+        trajectory: 0.05
       m1n6s200_joint_3:
-        goal: 0.05
-        trajectory: 0.2
+        goal: 0.02
+        trajectory: 0.05
       m1n6s200_joint_4:
-        goal: 0.05
-        trajectory: 0.2
+        goal: 0.02
+        trajectory: 0.05
       m1n6s200_joint_5:
-        goal: 0.05
-        trajectory: 0.2
+        goal: 0.02
+        trajectory: 0.05
       m1n6s200_joint_6:
-        goal: 0.05
-        trajectory: 0.2
+        goal: 0.02
+        trajectory: 0.05
       stopped_velocity_tolerance: 0.02
     gains:
       m1n6s200_joint_1:

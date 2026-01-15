@@ -1,8 +1,8 @@
-prefix=/home/liu/kinova_ws/devel
+prefix=/home/liu/kinova_volo/devel
 
 Name: aruco_msgs
 Description: Description of aruco_msgs
 Version: 3.1.4
-Cflags: -I/home/liu/kinova_ws/devel/include
+Cflags: -I/home/liu/kinova_volo/devel/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime geometry_msgs std_msgs

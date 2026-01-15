@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/kinova_ws/src
+CMAKE_SOURCE_DIR = /home/liu/kinova_volo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/kinova_ws/build
+CMAKE_BINARY_DIR = /home/liu/kinova_volo/build
 
 # Utility rule file for _kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/kinova_ws/build
 include kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/progress.make
 
 kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction:
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kinova_msgs /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionAction.msg kinova_msgs/FingerPosition:actionlib_msgs/GoalID:kinova_msgs/SetFingersPositionFeedback:kinova_msgs/SetFingersPositionActionResult:kinova_msgs/SetFingersPositionActionGoal:kinova_msgs/SetFingersPositionResult:actionlib_msgs/GoalStatus:std_msgs/Header:kinova_msgs/SetFingersPositionActionFeedback:kinova_msgs/SetFingersPositionGoal
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kinova_msgs /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionAction.msg actionlib_msgs/GoalID:kinova_msgs/FingerPosition:kinova_msgs/SetFingersPositionActionResult:kinova_msgs/SetFingersPositionActionFeedback:kinova_msgs/SetFingersPositionActionGoal:kinova_msgs/SetFingersPositionFeedback:actionlib_msgs/GoalStatus:kinova_msgs/SetFingersPositionResult:kinova_msgs/SetFingersPositionGoal:std_msgs/Header
 
 _kinova_msgs_generate_messages_check_deps_SetFingersPositionAction: kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction
 _kinova_msgs_generate_messages_check_deps_SetFingersPositionAction: kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/build.make
@@ -67,10 +67,10 @@ kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetF
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/build
 
 kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/clean:
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/cmake_clean.cmake
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/cmake_clean.cmake
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/clean
 
 kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/depend:
-	cd /home/liu/kinova_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_ws/src /home/liu/kinova_ws/src/kinova-ros/kinova_msgs /home/liu/kinova_ws/build /home/liu/kinova_ws/build/kinova-ros/kinova_msgs /home/liu/kinova_ws/build/kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/kinova_volo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_volo/src /home/liu/kinova_volo/src/kinova-ros/kinova_msgs /home/liu/kinova_volo/build /home/liu/kinova_volo/build/kinova-ros/kinova_msgs /home/liu/kinova_volo/build/kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionAction.dir/depend
 

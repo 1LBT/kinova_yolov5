@@ -1,4 +1,4 @@
-prefix=/home/liu/kinova_ws/devel
+prefix=/home/liu/kinova_volo/devel
 
 Name: realsense2_description
 Description: Description of realsense2_description

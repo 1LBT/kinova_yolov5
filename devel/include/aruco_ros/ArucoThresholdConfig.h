@@ -456,9 +456,9 @@ ArucoThresholdConfig::GroupDescription<ArucoThresholdConfig::DEFAULT, ArucoThres
 //#line 292 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __default__.detection_mode = 1;
 //#line 292 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(ArucoThresholdConfig::AbstractParamDescriptionConstPtr(new ArucoThresholdConfig::ParamDescription<int>("detection_mode", "int", 0, "The detection mode , affects speed and reliability", "{'enum': [{'name': 'Normal', 'type': 'int', 'value': 0, 'srcline': 12, 'srcfile': '/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'Fast', 'type': 'int', 'value': 1, 'srcline': 13, 'srcfile': '/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'Video_Fast', 'type': 'int', 'value': 2, 'srcline': 14, 'srcfile': '/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'detection_mode enum'}", &ArucoThresholdConfig::detection_mode)));
+      Default.abstract_parameters.push_back(ArucoThresholdConfig::AbstractParamDescriptionConstPtr(new ArucoThresholdConfig::ParamDescription<int>("detection_mode", "int", 0, "The detection mode , affects speed and reliability", "{'enum': [{'name': 'Normal', 'type': 'int', 'value': 0, 'srcline': 12, 'srcfile': '/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'Fast', 'type': 'int', 'value': 1, 'srcline': 13, 'srcfile': '/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'Video_Fast', 'type': 'int', 'value': 2, 'srcline': 14, 'srcfile': '/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'detection_mode enum'}", &ArucoThresholdConfig::detection_mode)));
 //#line 292 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
-      __param_descriptions__.push_back(ArucoThresholdConfig::AbstractParamDescriptionConstPtr(new ArucoThresholdConfig::ParamDescription<int>("detection_mode", "int", 0, "The detection mode , affects speed and reliability", "{'enum': [{'name': 'Normal', 'type': 'int', 'value': 0, 'srcline': 12, 'srcfile': '/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'Fast', 'type': 'int', 'value': 1, 'srcline': 13, 'srcfile': '/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'Video_Fast', 'type': 'int', 'value': 2, 'srcline': 14, 'srcfile': '/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'detection_mode enum'}", &ArucoThresholdConfig::detection_mode)));
+      __param_descriptions__.push_back(ArucoThresholdConfig::AbstractParamDescriptionConstPtr(new ArucoThresholdConfig::ParamDescription<int>("detection_mode", "int", 0, "The detection mode , affects speed and reliability", "{'enum': [{'name': 'Normal', 'type': 'int', 'value': 0, 'srcline': 12, 'srcfile': '/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'Fast', 'type': 'int', 'value': 1, 'srcline': 13, 'srcfile': '/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'Video_Fast', 'type': 'int', 'value': 2, 'srcline': 14, 'srcfile': '/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg', 'description': '', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'detection_mode enum'}", &ArucoThresholdConfig::detection_mode)));
 //#line 247 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Default.convertParams();
 //#line 247 "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
@@ -538,11 +538,11 @@ ArucoThresholdConfig::GroupDescription<ArucoThresholdConfig::DEFAULT, ArucoThres
     return statics;
   }
 
-//#line 12 "/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg"
+//#line 12 "/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg"
       const int ArucoThreshold_Normal = 0;
-//#line 13 "/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg"
+//#line 13 "/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg"
       const int ArucoThreshold_Fast = 1;
-//#line 14 "/home/liu/kinova_ws/src/kinova-ros/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg"
+//#line 14 "/home/liu/kinova_volo/src/aruco_ros/aruco_ros/cfg/ArucoThreshold.cfg"
       const int ArucoThreshold_Video_Fast = 2;
 }
 

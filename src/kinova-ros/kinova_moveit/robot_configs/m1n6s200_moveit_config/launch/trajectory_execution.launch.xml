@@ -10,8 +10,6 @@
   <param name="allowed_execution_duration_scaling" value="4.0"/> <!-- default 1.2 -->
   <!-- Allow more than the expected execution time before triggering a trajectory cancel (applied after scaling) -->
   <param name="allowed_goal_duration_margin" value="2.0"/> <!-- default 0.5 -->
-  <!-- Allow start state tolerance -->
-  <param name="allowed_start_tolerance" value="0.1"/> <!-- default 0.01 -->
   
   <!-- Load the robot specific controller manager; this sets the moveit_controller_manager ROS parameter -->
   <arg name="fake_execution" default="false" />

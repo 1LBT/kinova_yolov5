@@ -1,4 +1,4 @@
-prefix=/home/liu/kinova_ws/install
+prefix=/home/liu/kinova_volo/install
 
 Name: j2s7s300_ikfast
 Description: Description of j2s7s300_ikfast

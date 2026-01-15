@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liu/kinova_ws/src/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/src/pick_place.cpp" "/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/pick_place.dir/src/pick_place.cpp.o"
+  "/home/liu/kinova_volo/src/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/src/pick_place.cpp" "/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/CMakeFiles/pick_place.dir/src/pick_place.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,18 +23,18 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/liu/kinova_ws/src/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/include"
+  "/home/liu/kinova_volo/src/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
   "/usr/include/bullet"
-  "/home/liu/kinova_ws/devel/include"
-  "/home/liu/kinova_ws/src/kinova-ros/kinova_driver/include"
+  "/home/liu/kinova_volo/devel/include"
+  "/home/liu/kinova_volo/src/kinova-ros/kinova_driver/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/liu/kinova_ws/build/kinova-ros/kinova_driver/CMakeFiles/kinova_driver.dir/DependInfo.cmake"
+  "/home/liu/kinova_volo/build/kinova-ros/kinova_driver/CMakeFiles/kinova_driver.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/liu/kinova_ws/devel/lib/libj2s7s300_robot_arm_moveit_ikfast_plugin.pdb"
-  "/home/liu/kinova_ws/devel/lib/libj2s7s300_robot_arm_moveit_ikfast_plugin.so"
+  "/home/liu/kinova_volo/devel/lib/libj2s7s300_robot_arm_moveit_ikfast_plugin.pdb"
+  "/home/liu/kinova_volo/devel/lib/libj2s7s300_robot_arm_moveit_ikfast_plugin.so"
   "CMakeFiles/j2s7s300_robot_arm_moveit_ikfast_plugin.dir/src/j2s7s300_robot_arm_ikfast_moveit_plugin.cpp.o"
 )
 

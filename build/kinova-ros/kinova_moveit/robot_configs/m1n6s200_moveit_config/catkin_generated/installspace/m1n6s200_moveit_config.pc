@@ -1,4 +1,4 @@
-prefix=/home/liu/kinova_ws/install
+prefix=/home/liu/kinova_volo/install
 
 Name: m1n6s200_moveit_config
 Description: Description of m1n6s200_moveit_config

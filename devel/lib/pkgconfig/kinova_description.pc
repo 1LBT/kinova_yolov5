@@ -1,4 +1,4 @@
-prefix=/home/liu/kinova_ws/devel
+prefix=/home/liu/kinova_volo/devel
 
 Name: kinova_description
 Description: Description of kinova_description

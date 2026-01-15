@@ -67,14 +67,14 @@ set(kinova_bringup_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kinova_bringup_SOURCE_PREFIX /home/liu/kinova_ws/src/kinova-ros/kinova_bringup)
-  set(kinova_bringup_DEVEL_PREFIX /home/liu/kinova_ws/devel)
+  set(kinova_bringup_SOURCE_PREFIX /home/liu/kinova_volo/src/kinova-ros/kinova_bringup)
+  set(kinova_bringup_DEVEL_PREFIX /home/liu/kinova_volo/devel)
   set(kinova_bringup_INSTALL_PREFIX "")
   set(kinova_bringup_PREFIX ${kinova_bringup_DEVEL_PREFIX})
 else()
   set(kinova_bringup_SOURCE_PREFIX "")
   set(kinova_bringup_DEVEL_PREFIX "")
-  set(kinova_bringup_INSTALL_PREFIX /home/liu/kinova_ws/install)
+  set(kinova_bringup_INSTALL_PREFIX /home/liu/kinova_volo/install)
   set(kinova_bringup_PREFIX ${kinova_bringup_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/liu/kinova_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/liu/kinova_volo/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

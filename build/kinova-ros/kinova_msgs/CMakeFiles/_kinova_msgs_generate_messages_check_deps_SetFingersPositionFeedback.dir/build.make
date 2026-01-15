@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/kinova_ws/src
+CMAKE_SOURCE_DIR = /home/liu/kinova_volo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/kinova_ws/build
+CMAKE_BINARY_DIR = /home/liu/kinova_volo/build
 
 # Utility rule file for _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/liu/kinova_ws/build
 include kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/progress.make
 
 kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback:
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kinova_msgs /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg kinova_msgs/FingerPosition
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kinova_msgs /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg kinova_msgs/FingerPosition
 
 _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback: kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback
 _kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback: kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/build.make
@@ -67,10 +67,10 @@ kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetF
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/build
 
 kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/clean:
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/cmake_clean.cmake
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/cmake_clean.cmake
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/clean
 
 kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/depend:
-	cd /home/liu/kinova_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_ws/src /home/liu/kinova_ws/src/kinova-ros/kinova_msgs /home/liu/kinova_ws/build /home/liu/kinova_ws/build/kinova-ros/kinova_msgs /home/liu/kinova_ws/build/kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/kinova_volo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_volo/src /home/liu/kinova_volo/src/kinova-ros/kinova_msgs /home/liu/kinova_volo/build /home/liu/kinova_volo/build/kinova-ros/kinova_msgs /home/liu/kinova_volo/build/kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/_kinova_msgs_generate_messages_check_deps_SetFingersPositionFeedback.dir/depend
 

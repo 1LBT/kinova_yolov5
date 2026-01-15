@@ -1,8 +1,8 @@
-# Install script for directory: /home/liu/kinova_ws/src
+# Install script for directory: /home/liu/kinova_volo/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/liu/kinova_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/liu/kinova_volo/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -49,129 +49,130 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/kinova_ws/install/_setup_util.py")
+   "/home/liu/kinova_volo/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/kinova_ws/install" TYPE PROGRAM FILES "/home/liu/kinova_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/liu/kinova_volo/install" TYPE PROGRAM FILES "/home/liu/kinova_volo/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/kinova_ws/install/env.sh")
+   "/home/liu/kinova_volo/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/kinova_ws/install" TYPE PROGRAM FILES "/home/liu/kinova_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/liu/kinova_volo/install" TYPE PROGRAM FILES "/home/liu/kinova_volo/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/kinova_ws/install/setup.bash;/home/liu/kinova_ws/install/local_setup.bash")
+   "/home/liu/kinova_volo/install/setup.bash;/home/liu/kinova_volo/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/kinova_ws/install" TYPE FILE FILES
-    "/home/liu/kinova_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/liu/kinova_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/liu/kinova_volo/install" TYPE FILE FILES
+    "/home/liu/kinova_volo/build/catkin_generated/installspace/setup.bash"
+    "/home/liu/kinova_volo/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/kinova_ws/install/setup.sh;/home/liu/kinova_ws/install/local_setup.sh")
+   "/home/liu/kinova_volo/install/setup.sh;/home/liu/kinova_volo/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/kinova_ws/install" TYPE FILE FILES
-    "/home/liu/kinova_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/liu/kinova_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/liu/kinova_volo/install" TYPE FILE FILES
+    "/home/liu/kinova_volo/build/catkin_generated/installspace/setup.sh"
+    "/home/liu/kinova_volo/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/kinova_ws/install/setup.zsh;/home/liu/kinova_ws/install/local_setup.zsh")
+   "/home/liu/kinova_volo/install/setup.zsh;/home/liu/kinova_volo/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/kinova_ws/install" TYPE FILE FILES
-    "/home/liu/kinova_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/liu/kinova_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/liu/kinova_volo/install" TYPE FILE FILES
+    "/home/liu/kinova_volo/build/catkin_generated/installspace/setup.zsh"
+    "/home/liu/kinova_volo/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/kinova_ws/install/setup.fish;/home/liu/kinova_ws/install/local_setup.fish")
+   "/home/liu/kinova_volo/install/setup.fish;/home/liu/kinova_volo/install/local_setup.fish")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/kinova_ws/install" TYPE FILE FILES
-    "/home/liu/kinova_ws/build/catkin_generated/installspace/setup.fish"
-    "/home/liu/kinova_ws/build/catkin_generated/installspace/local_setup.fish"
+file(INSTALL DESTINATION "/home/liu/kinova_volo/install" TYPE FILE FILES
+    "/home/liu/kinova_volo/build/catkin_generated/installspace/setup.fish"
+    "/home/liu/kinova_volo/build/catkin_generated/installspace/local_setup.fish"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/liu/kinova_ws/install/.rosinstall")
+   "/home/liu/kinova_volo/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/liu/kinova_ws/install" TYPE FILE FILES "/home/liu/kinova_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/liu/kinova_volo/install" TYPE FILE FILES "/home/liu/kinova_volo/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/liu/kinova_ws/build/gtest/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/easy_handeye/easy_handeye/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_bringup/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_control/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_gazebo/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/carmera_ws/src/realsense-ros/realsense2_description/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/easy_handeye/rqt_easy_handeye/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/aruco_ros/aruco_msgs/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/easy_handeye/easy_handeye_msgs/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/ggcnn/ggcnn_kinova_grasping/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_msgs/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/aruco_ros/aruco/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/aruco_ros/aruco_ros/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/carmera_ws/src/realsense-ros/realsense2_camera/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_driver/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_demo/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2s6s300_ikfast/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2s7s300_ikfast/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/m1n6s300_ikfast/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_description/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/robot_configs/j2n6s300_moveit_config/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/robot_configs/j2s6s300_moveit_config/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/robot_configs/j2s7s300_moveit_config/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/robot_configs/m1n6s200_moveit_config/cmake_install.cmake")
-  include("/home/liu/kinova_ws/build/kinova-ros/kinova_moveit/robot_configs/m1n6s300_moveit_config/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/gtest/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/easy_handeye/easy_handeye/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_bringup/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_control/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_gazebo/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/camera_ws/src/realsense-ros/realsense2_description/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/easy_handeye/rqt_easy_handeye/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/aruco_ros/aruco_msgs/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/easy_handeye/easy_handeye_msgs/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/ggcnn/ggcnn_kinova_grasping/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_msgs/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/aruco_ros/aruco/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/aruco_ros/aruco_ros/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/camera_ws/src/realsense-ros/realsense2_camera/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/easy_aruco/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_driver/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_demo/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2n6s300_ikfast/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2s6s300_ikfast/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/j2s7s300_ikfast/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/inverse_kinematics_plugins/ikfast/m1n6s300_ikfast/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/kinova_arm_moveit_demo/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_description/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/robot_configs/j2n6s300_moveit_config/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/robot_configs/j2s6s300_moveit_config/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/robot_configs/j2s7s300_moveit_config/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/robot_configs/m1n6s200_moveit_config/cmake_install.cmake")
+  include("/home/liu/kinova_volo/build/kinova-ros/kinova_moveit/robot_configs/m1n6s300_moveit_config/cmake_install.cmake")
 
 endif()
 
@@ -183,5 +184,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liu/kinova_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liu/kinova_volo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

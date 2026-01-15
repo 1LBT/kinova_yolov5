@@ -1,0 +1,8 @@
+prefix=/home/liu/kinova_volo/install
+
+Name: aruco
+Description: Description of aruco
+Version: 3.1.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -laruco
+Requires: 

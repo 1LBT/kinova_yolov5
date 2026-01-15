@@ -43,496 +43,496 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liu/kinova_ws/src
+CMAKE_SOURCE_DIR = /home/liu/kinova_volo/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liu/kinova_ws/build
+CMAKE_BINARY_DIR = /home/liu/kinova_volo/build
 
 # Utility rule file for kinova_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/progress.make
 
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/FingerPosition.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointAngles.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointVelocity.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointTorque.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/KinovaPose.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocity.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingers.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/CartesianForce.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/Start.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/Stop.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/HomeArm.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetNullSpaceModeState.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlMode.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlParameters.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/ClearTrajectories.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/ZeroTorques.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.js
-kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/RunCOMParametersEstimation.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/FingerPosition.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointAngles.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointVelocity.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointTorque.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/KinovaPose.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocity.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingers.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/CartesianForce.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/Start.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/Stop.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/HomeArm.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetNullSpaceModeState.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlMode.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlParameters.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/ClearTrajectories.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/ZeroTorques.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.js
+kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/RunCOMParametersEstimation.js
 
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/FingerPosition.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/FingerPosition.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from kinova_msgs/FingerPosition.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/FingerPosition.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/FingerPosition.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from kinova_msgs/FingerPosition.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointAngles.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointAngles.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from kinova_msgs/JointAngles.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointAngles.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointAngles.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from kinova_msgs/JointAngles.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointVelocity.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointVelocity.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from kinova_msgs/JointVelocity.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointVelocity.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointVelocity.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointVelocity.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from kinova_msgs/JointVelocity.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointVelocity.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointTorque.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointTorque.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointTorque.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from kinova_msgs/JointTorque.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointTorque.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointTorque.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointTorque.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointTorque.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from kinova_msgs/JointTorque.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointTorque.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/KinovaPose.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/KinovaPose.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from kinova_msgs/KinovaPose.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/KinovaPose.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/KinovaPose.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from kinova_msgs/KinovaPose.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocity.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/PoseVelocity.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from kinova_msgs/PoseVelocity.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/PoseVelocity.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocity.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/PoseVelocity.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from kinova_msgs/PoseVelocity.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/PoseVelocity.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingers.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingers.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/PoseVelocityWithFingers.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from kinova_msgs/PoseVelocityWithFingers.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/PoseVelocityWithFingers.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingers.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingers.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/PoseVelocityWithFingers.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from kinova_msgs/PoseVelocityWithFingers.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/PoseVelocityWithFingers.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from kinova_msgs/PoseVelocityWithFingerVelocity.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from kinova_msgs/PoseVelocityWithFingerVelocity.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/CartesianForce.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/CartesianForce.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/CartesianForce.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from kinova_msgs/CartesianForce.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/CartesianForce.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/CartesianForce.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/CartesianForce.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/CartesianForce.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from kinova_msgs/CartesianForce.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/CartesianForce.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesAction.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from kinova_msgs/ArmJointAnglesAction.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesAction.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesAction.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from kinova_msgs/ArmJointAnglesAction.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesAction.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from kinova_msgs/ArmJointAnglesActionGoal.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionGoal.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from kinova_msgs/ArmJointAnglesActionGoal.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionGoal.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from kinova_msgs/ArmJointAnglesActionResult.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionResult.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from kinova_msgs/ArmJointAnglesActionResult.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionResult.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from kinova_msgs/ArmJointAnglesActionFeedback.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesActionFeedback.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from kinova_msgs/ArmJointAnglesActionFeedback.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesActionFeedback.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from kinova_msgs/ArmJointAnglesGoal.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesGoal.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from kinova_msgs/ArmJointAnglesGoal.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesGoal.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from kinova_msgs/ArmJointAnglesResult.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesResult.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from kinova_msgs/ArmJointAnglesResult.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesResult.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from kinova_msgs/ArmJointAnglesFeedback.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmJointAnglesFeedback.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/JointAngles.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from kinova_msgs/ArmJointAnglesFeedback.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmJointAnglesFeedback.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseAction.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from kinova_msgs/ArmPoseAction.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseAction.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseAction.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from kinova_msgs/ArmPoseAction.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseAction.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from kinova_msgs/ArmPoseActionGoal.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionGoal.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from kinova_msgs/ArmPoseActionGoal.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionGoal.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from kinova_msgs/ArmPoseActionResult.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionResult.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from kinova_msgs/ArmPoseActionResult.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionResult.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Javascript code from kinova_msgs/ArmPoseActionFeedback.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseActionFeedback.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Javascript code from kinova_msgs/ArmPoseActionFeedback.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseActionFeedback.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Javascript code from kinova_msgs/ArmPoseGoal.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseGoal.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Javascript code from kinova_msgs/ArmPoseGoal.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseGoal.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from kinova_msgs/ArmPoseResult.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseResult.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from kinova_msgs/ArmPoseResult.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseResult.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from kinova_msgs/ArmPoseFeedback.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/ArmPoseFeedback.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from kinova_msgs/ArmPoseFeedback.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/ArmPoseFeedback.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseAction.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseAction.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseAction.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseAction.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseAction.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseAction.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseActionGoal.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionGoal.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseActionGoal.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionGoal.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseActionResult.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionResult.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseActionResult.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionResult.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseActionFeedback.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseActionFeedback.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseGoal.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseGoal.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseGoal.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseGoal.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseResult.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseResult.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseResult.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseResult.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseFeedback.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/Arm_KinovaPoseFeedback.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/KinovaPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from kinova_msgs/Arm_KinovaPoseFeedback.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/Arm_KinovaPoseFeedback.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionAction.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Javascript code from kinova_msgs/SetFingersPositionAction.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionAction.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionAction.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Javascript code from kinova_msgs/SetFingersPositionAction.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionAction.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Javascript code from kinova_msgs/SetFingersPositionActionGoal.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionGoal.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Javascript code from kinova_msgs/SetFingersPositionActionGoal.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionGoal.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Javascript code from kinova_msgs/SetFingersPositionActionResult.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionResult.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Javascript code from kinova_msgs/SetFingersPositionActionResult.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionResult.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Javascript code from kinova_msgs/SetFingersPositionActionFeedback.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionActionFeedback.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Javascript code from kinova_msgs/SetFingersPositionActionFeedback.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionActionFeedback.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionGoal.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Javascript code from kinova_msgs/SetFingersPositionGoal.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionGoal.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionGoal.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Javascript code from kinova_msgs/SetFingersPositionGoal.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionGoal.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionResult.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Javascript code from kinova_msgs/SetFingersPositionResult.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionResult.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionResult.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Javascript code from kinova_msgs/SetFingersPositionResult.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionResult.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js: /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Javascript code from kinova_msgs/SetFingersPositionFeedback.msg"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js: /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg/FingerPosition.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Javascript code from kinova_msgs/SetFingersPositionFeedback.msg"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/devel/share/kinova_msgs/msg/SetFingersPositionFeedback.msg -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/Start.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/Start.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/Start.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Javascript code from kinova_msgs/Start.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/Start.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/Start.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/Start.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/Start.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Javascript code from kinova_msgs/Start.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/Start.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/Stop.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/Stop.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/Stop.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Javascript code from kinova_msgs/Stop.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/Stop.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/Stop.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/Stop.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/Stop.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Javascript code from kinova_msgs/Stop.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/Stop.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/HomeArm.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/HomeArm.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/HomeArm.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Javascript code from kinova_msgs/HomeArm.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/HomeArm.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/HomeArm.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/HomeArm.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/HomeArm.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Javascript code from kinova_msgs/HomeArm.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/HomeArm.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetForceControlParams.srv
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Javascript code from kinova_msgs/SetForceControlParams.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetForceControlParams.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetForceControlParams.srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Javascript code from kinova_msgs/SetForceControlParams.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetForceControlParams.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetEndEffectorOffset.srv
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Javascript code from kinova_msgs/SetEndEffectorOffset.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetEndEffectorOffset.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetEndEffectorOffset.srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Javascript code from kinova_msgs/SetEndEffectorOffset.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetEndEffectorOffset.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetNullSpaceModeState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetNullSpaceModeState.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetNullSpaceModeState.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Javascript code from kinova_msgs/SetNullSpaceModeState.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetNullSpaceModeState.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetNullSpaceModeState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetNullSpaceModeState.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetNullSpaceModeState.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Javascript code from kinova_msgs/SetNullSpaceModeState.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetNullSpaceModeState.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlMode.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetTorqueControlMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating Javascript code from kinova_msgs/SetTorqueControlMode.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetTorqueControlMode.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlMode.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetTorqueControlMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating Javascript code from kinova_msgs/SetTorqueControlMode.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetTorqueControlMode.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlParameters.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlParameters.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetTorqueControlParameters.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Javascript code from kinova_msgs/SetTorqueControlParameters.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/SetTorqueControlParameters.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlParameters.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlParameters.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetTorqueControlParameters.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Javascript code from kinova_msgs/SetTorqueControlParameters.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/SetTorqueControlParameters.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/ClearTrajectories.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/ClearTrajectories.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/ClearTrajectories.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Javascript code from kinova_msgs/ClearTrajectories.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/ClearTrajectories.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/ClearTrajectories.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/ClearTrajectories.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/ClearTrajectories.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Javascript code from kinova_msgs/ClearTrajectories.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/ClearTrajectories.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/ZeroTorques.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/ZeroTorques.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/ZeroTorques.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Javascript code from kinova_msgs/ZeroTorques.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/ZeroTorques.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/ZeroTorques.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/ZeroTorques.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/ZeroTorques.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Javascript code from kinova_msgs/ZeroTorques.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/ZeroTorques.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating Javascript code from kinova_msgs/AddPoseToCartesianTrajectory.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating Javascript code from kinova_msgs/AddPoseToCartesianTrajectory.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/RunCOMParametersEstimation.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/RunCOMParametersEstimation.js: /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/RunCOMParametersEstimation.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating Javascript code from kinova_msgs/RunCOMParametersEstimation.srv"
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_ws/src/kinova-ros/kinova_msgs/srv/RunCOMParametersEstimation.srv -Ikinova_msgs:/home/liu/kinova_ws/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_ws/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/RunCOMParametersEstimation.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/RunCOMParametersEstimation.js: /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/RunCOMParametersEstimation.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/liu/kinova_volo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating Javascript code from kinova_msgs/RunCOMParametersEstimation.srv"
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/liu/kinova_volo/src/kinova-ros/kinova_msgs/srv/RunCOMParametersEstimation.srv -Ikinova_msgs:/home/liu/kinova_volo/src/kinova-ros/kinova_msgs/msg -Ikinova_msgs:/home/liu/kinova_volo/devel/share/kinova_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kinova_msgs -o /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv
 
 kinova_msgs_generate_messages_nodejs: kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/FingerPosition.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointAngles.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointVelocity.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/JointTorque.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/KinovaPose.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocity.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingers.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/CartesianForce.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/Start.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/Stop.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/HomeArm.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetNullSpaceModeState.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlMode.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlParameters.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/ClearTrajectories.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/ZeroTorques.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.js
-kinova_msgs_generate_messages_nodejs: /home/liu/kinova_ws/devel/share/gennodejs/ros/kinova_msgs/srv/RunCOMParametersEstimation.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/FingerPosition.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointAngles.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointVelocity.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/JointTorque.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/KinovaPose.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocity.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingers.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/PoseVelocityWithFingerVelocity.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/CartesianForce.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesAction.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionGoal.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionResult.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesActionFeedback.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesGoal.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesResult.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmJointAnglesFeedback.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseAction.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionGoal.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionResult.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseActionFeedback.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseGoal.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseResult.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/ArmPoseFeedback.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseAction.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionGoal.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionResult.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseActionFeedback.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseGoal.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseResult.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/Arm_KinovaPoseFeedback.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionAction.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionGoal.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionResult.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionActionFeedback.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionGoal.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionResult.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/msg/SetFingersPositionFeedback.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/Start.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/Stop.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/HomeArm.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetForceControlParams.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetEndEffectorOffset.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetNullSpaceModeState.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlMode.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/SetTorqueControlParameters.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/ClearTrajectories.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/ZeroTorques.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/AddPoseToCartesianTrajectory.js
+kinova_msgs_generate_messages_nodejs: /home/liu/kinova_volo/devel/share/gennodejs/ros/kinova_msgs/srv/RunCOMParametersEstimation.js
 kinova_msgs_generate_messages_nodejs: kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : kinova_msgs_generate_messages_nodejs
@@ -543,10 +543,10 @@ kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/build
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/build
 
 kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/liu/kinova_ws/build/kinova-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/liu/kinova_volo/build/kinova-ros/kinova_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/clean
 
 kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/liu/kinova_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_ws/src /home/liu/kinova_ws/src/kinova-ros/kinova_msgs /home/liu/kinova_ws/build /home/liu/kinova_ws/build/kinova-ros/kinova_msgs /home/liu/kinova_ws/build/kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liu/kinova_volo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liu/kinova_volo/src /home/liu/kinova_volo/src/kinova-ros/kinova_msgs /home/liu/kinova_volo/build /home/liu/kinova_volo/build/kinova-ros/kinova_msgs /home/liu/kinova_volo/build/kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kinova-ros/kinova_msgs/CMakeFiles/kinova_msgs_generate_messages_nodejs.dir/depend
 

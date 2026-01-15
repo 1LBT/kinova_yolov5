@@ -1,0 +1,48 @@
+<launch>
+    <arg name="namespace_prefix" value="m1n6s200_handeyecalibration"/>
+ 
+    <!-- Charuco board parameters -->
+    <arg name="dictionary" default="DICT_4X4_50"/>
+    <arg name="marker_size" default="0.011" doc="Size of the ArUco marker used, in meters"/>
+    <arg name="square_size" default="0.015" doc="Size of the squares of the chessboard, in meters"/>
+    <arg name="square_number_x" default="11"/>
+    <arg name="square_number_y" default="8"/>
+
+    <!-- Camera parameters -->
+    <arg name="camera_namespace" default="/camera/color"/>
+    <arg name="camera_frame" default="camera_color_optical_frame"/>
+
+    <!-- 3. Easy ArUco Tracker (Charuco) -->
+    <include file="$(find easy_aruco)/launch/track_charuco_board.launch">
+        <arg name="camera_namespace" value="$(arg camera_namespace)"/>
+        <arg name="dictionary" value="$(arg dictionary)"/>
+        <arg name="camera_frame" value="$(arg camera_frame)"/>
+        <arg name="reference_frame" value="$(arg camera_frame)"/> <!-- Output pose relative to camera -->
+        
+        <!-- Directly specify the correct topics for RealSense -->
+        <arg name="camera_info_topic" value="$(arg camera_namespace)/camera_info"/>
+        <arg name="camera_image_topic" value="$(arg camera_namespace)/image_raw"/>
+        
+        <arg name="marker_size" value="$(arg marker_size)"/>
+        <arg name="square_size" value="$(arg square_size)"/>
+        <arg name="square_number_x" value="$(arg square_number_x)"/>
+        <arg name="square_number_y" value="$(arg square_number_y)"/>
+    </include>
+
+    <!-- 4. easy-handeye 标定 -->
+    <include file="$(find easy_handeye)/launch/calibrate.launch">
+        <arg name="namespace_prefix" value="$(arg namespace_prefix)"/>
+        <arg name="eye_on_hand"      value="true"/>          <!-- 眼在 手上 -->
+        <arg name="tracking_base_frame"  value="$(arg camera_frame)"/>
+        <arg name="tracking_marker_frame" value="board"/> <!-- Easy ArUco publishes 'board' frame -->
+        
+        <!-- Kinova 基座和末端帧名 -->
+        <arg name="robot_base_frame"     value="m1n6s200_link_base"/>
+        <arg name="robot_effector_frame" value="m1n6s200_end_effector"/>
+        
+        <!-- 用 MoveIt 规划采样轨迹 -->
+        <arg name="freehand_robot_movement" value="false"/>
+        <arg name="robot_velocity_scaling"  value="0.3"/>
+        <arg name="robot_acceleration_scaling" value="0.2"/>
+    </include>
+</launch>

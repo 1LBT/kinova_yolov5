@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/liu/kinova_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/liu/kinova_volo/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4f31f/fast && /usr/bin/make -f CMakeFiles/cmTC_4f31f.dir/build.make CMakeFiles/cmTC_4f31f.dir/build
-make[1]: 进入目录“/home/liu/kinova_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4f31f.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4f31f.dir/src.c.o   -c /home/liu/kinova_ws/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_4f31f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f31f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_4f31f.dir/src.c.o  -o cmTC_4f31f 
-/usr/bin/ld: CMakeFiles/cmTC_4f31f.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_67baf/fast && /usr/bin/make -f CMakeFiles/cmTC_67baf.dir/build.make CMakeFiles/cmTC_67baf.dir/build
+make[1]: 进入目录“/home/liu/kinova_volo/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_67baf.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_67baf.dir/src.c.o   -c /home/liu/kinova_volo/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_67baf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67baf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_67baf.dir/src.c.o  -o cmTC_67baf 
+/usr/bin/ld: CMakeFiles/cmTC_67baf.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_4f31f.dir/build.make:87：cmTC_4f31f] 错误 1
-make[1]: 离开目录“/home/liu/kinova_ws/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_4f31f/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_67baf.dir/build.make:87：cmTC_67baf] 错误 1
+make[1]: 离开目录“/home/liu/kinova_volo/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_67baf/fast] 错误 2
 
 
 Source file was:
@@ -39,58 +39,58 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/liu/kinova_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/liu/kinova_volo/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f378a/fast && /usr/bin/make -f CMakeFiles/cmTC_f378a.dir/build.make CMakeFiles/cmTC_f378a.dir/build
-make[1]: 进入目录“/home/liu/kinova_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_f378a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f378a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f378a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f378a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f378a.dir/CheckFunctionExists.c.o  -o cmTC_f378a  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_70c09/fast && /usr/bin/make -f CMakeFiles/cmTC_70c09.dir/build.make CMakeFiles/cmTC_70c09.dir/build
+make[1]: 进入目录“/home/liu/kinova_volo/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_70c09.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_70c09.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_70c09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c09.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_70c09.dir/CheckFunctionExists.c.o  -o cmTC_70c09  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_f378a.dir/build.make:87：cmTC_f378a] 错误 1
-make[1]: 离开目录“/home/liu/kinova_ws/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_f378a/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_70c09.dir/build.make:87：cmTC_70c09] 错误 1
+make[1]: 离开目录“/home/liu/kinova_volo/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_70c09/fast] 错误 2
 
 
 
 Determining if the function sgemm_ exists failed with the following output:
-Change Dir: /home/liu/kinova_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/liu/kinova_volo/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4c090/fast && /usr/bin/make -f CMakeFiles/cmTC_4c090.dir/build.make CMakeFiles/cmTC_4c090.dir/build
-make[1]: 进入目录“/home/liu/kinova_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4c090.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_4c090.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4c090
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c090.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    -rdynamic CMakeFiles/cmTC_4c090.dir/CheckFunctionExists.c.o  -o cmTC_4c090 
-/usr/bin/ld: CMakeFiles/cmTC_4c090.dir/CheckFunctionExists.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_5b463/fast && /usr/bin/make -f CMakeFiles/cmTC_5b463.dir/build.make CMakeFiles/cmTC_5b463.dir/build
+make[1]: 进入目录“/home/liu/kinova_volo/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5b463.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_5b463.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b463.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    -rdynamic CMakeFiles/cmTC_5b463.dir/CheckFunctionExists.c.o  -o cmTC_5b463 
+/usr/bin/ld: CMakeFiles/cmTC_5b463.dir/CheckFunctionExists.c.o: in function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_4c090.dir/build.make:87：cmTC_4c090] 错误 1
-make[1]: 离开目录“/home/liu/kinova_ws/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_4c090/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_5b463.dir/build.make:87：cmTC_5b463] 错误 1
+make[1]: 离开目录“/home/liu/kinova_volo/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_5b463/fast] 错误 2
 
 
 
 Determining if the function cheev_ exists failed with the following output:
-Change Dir: /home/liu/kinova_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/liu/kinova_volo/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6180b/fast && /usr/bin/make -f CMakeFiles/cmTC_6180b.dir/build.make CMakeFiles/cmTC_6180b.dir/build
-make[1]: 进入目录“/home/liu/kinova_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_6180b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_6180b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6180b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6180b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    -rdynamic CMakeFiles/cmTC_6180b.dir/CheckFunctionExists.c.o  -o cmTC_6180b  /usr/lib/x86_64-linux-gnu/libblas.so 
-/usr/bin/ld: CMakeFiles/cmTC_6180b.dir/CheckFunctionExists.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_6081e/fast && /usr/bin/make -f CMakeFiles/cmTC_6081e.dir/build.make CMakeFiles/cmTC_6081e.dir/build
+make[1]: 进入目录“/home/liu/kinova_volo/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6081e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_6081e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6081e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6081e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    -rdynamic CMakeFiles/cmTC_6081e.dir/CheckFunctionExists.c.o  -o cmTC_6081e  /usr/lib/x86_64-linux-gnu/libblas.so 
+/usr/bin/ld: CMakeFiles/cmTC_6081e.dir/CheckFunctionExists.c.o: in function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_6180b.dir/build.make:88：cmTC_6180b] 错误 1
-make[1]: 离开目录“/home/liu/kinova_ws/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_6180b/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_6081e.dir/build.make:88：cmTC_6081e] 错误 1
+make[1]: 离开目录“/home/liu/kinova_volo/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_6081e/fast] 错误 2
 
 
 

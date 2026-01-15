@@ -1,4 +1,4 @@
-prefix=/home/liu/kinova_ws/devel
+prefix=/home/liu/kinova_volo/devel
 
 Name: ggcnn_kinova_grasping
 Description: Description of ggcnn_kinova_grasping

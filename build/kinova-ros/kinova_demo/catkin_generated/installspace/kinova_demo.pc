@@ -1,4 +1,4 @@
-prefix=/home/liu/kinova_ws/install
+prefix=/home/liu/kinova_volo/install
 
 Name: kinova_demo
 Description: Description of kinova_demo

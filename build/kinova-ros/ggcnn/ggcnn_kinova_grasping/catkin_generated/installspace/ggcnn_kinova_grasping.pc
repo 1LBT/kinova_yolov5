@@ -1,8 +1,0 @@
-prefix=/home/liu/kinova_ws/install
-
-Name: ggcnn_kinova_grasping
-Description: Description of ggcnn_kinova_grasping
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

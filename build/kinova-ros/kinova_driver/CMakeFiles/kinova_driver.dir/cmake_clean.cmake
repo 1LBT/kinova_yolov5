@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/liu/kinova_ws/devel/lib/libkinova_driver.pdb"
-  "/home/liu/kinova_ws/devel/lib/libkinova_driver.so"
+  "/home/liu/kinova_volo/devel/lib/libkinova_driver.pdb"
+  "/home/liu/kinova_volo/devel/lib/libkinova_driver.so"
   "CMakeFiles/kinova_driver.dir/src/kinova_api.cpp.o"
   "CMakeFiles/kinova_driver.dir/src/kinova_arm.cpp.o"
   "CMakeFiles/kinova_driver.dir/src/kinova_comm.cpp.o"
