@@ -1,0 +1,49 @@
+<launch>
+  <!--
+    手眼标定静态TF发布器
+    
+    眼在手上(eye-in-hand)配置：相机安装在末端执行器上
+    
+    手眼标定结果 (2024-12-19):
+    Translation: x=-0.006887, y=0.065183, z=-0.085832
+    Rotation (quaternion): x=-0.015518, y=-0.02102504775817704, z=-0.993383, w=0.111835
+translation: 
+  x: -0.009982526562560087
+  y: 0.08776414207076097
+  z: -0.14692980663684996
+rotation: 
+  x: -0.4768252574572165
+  y: -0.5128387324653052
+  z: 0.49735986733772425
+  w: 0.5121203673903622
+  -->
+  
+  <!-- 坐标系定义 -->
+  <arg name="parent_frame" default="m1n6s200_end_effector" />
+  <arg name="child_frame" default="camera_link" />
+  
+  <!-- 手眼标定结果 -->
+  <arg name="x" default="-0.009982526562560087" />
+  <arg name="y" default="0.08776414207076097" />
+  <arg name="z" default="-0.14692980663684996" />
+  <arg name="qx" default="-0.4768252574572165" />
+  <arg name="qy" default="-0.5128387324653052" />
+  <arg name="qz" default="0.49735986733772425" />
+  <arg name="qw" default="0.5121203673903622" />
+  <arg name="rate" default="100" />
+
+  <!-- 1. 发布标定变换 -->
+  <node pkg="tf" type="static_transform_publisher" name="handeye_static_broadcaster"
+        args="$(arg x) $(arg y) $(arg z) $(arg qx) $(arg qy) $(arg qz) $(arg qw) $(arg parent_frame) $(arg child_frame) $(arg rate)" />
+  
+  <!-- 
+    2. 发布专用抓取坐标系: yolo_frame
+    参数: x=0.015, y=0, z=0, yaw=-1.571, pitch=0, roll=-1.571
+  -->
+  <node pkg="tf" type="static_transform_publisher" name="yolo_frame_broadcaster"
+        args="0 0 0 1.571 -1.571 0 camera_link yolo_frame 100" />
+   <!-- 将点云方向从 X 向前校正为 Z 向前 -->
+  <node pkg="tf" type="static_transform_publisher" name="correct_depth_optical_orientation"
+        args="0 0 0 1.571 -1.571 0 camera_link camera_depth_optical_frame 100" />
+
+</launch>

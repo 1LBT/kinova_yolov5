@@ -12,6 +12,7 @@ import kinova_msgs.msg
 import kinova_msgs.srv
 import std_msgs.msg
 import geometry_msgs.msg
+from sensor_msgs.msg import CameraInfo
 import actionlib
 
 # 导入助手函数
@@ -29,6 +30,11 @@ except ImportError as e:
 MOVING = False  # 机械臂是否在速度控制下运动
 CURR_Z = 0.0   # 当前末端执行器Z高度
 CURRENT_POSE = None  # 存储当前位姿
+LATEST_GGCNN_CMD = None # 最新GGCNN命令
+LATEST_GGCNN_TIME = None # 最新命令接收时间
+
+# 相机内参全局变量
+CAMERA_INTRINSICS = {'fx': None, 'fy': None, 'cx': None, 'cy': None}
 
 # 参数（坐标系和话题）
 CAMERA_FRAME = rospy.get_param('~camera_frame', 'camera_depth_optical_frame')
@@ -37,6 +43,7 @@ EE_FRAME = rospy.get_param('~ee_frame', 'm1n6s200_end_effector')
 WRENCH_TOPIC = rospy.get_param('~wrench_topic', '/m1n6s200_driver/out/tool_wrench')
 POSE_TOPIC = rospy.get_param('~pose_topic', '/m1n6s200_driver/out/tool_pose')
 CMD_TOPIC = rospy.get_param('~cmd_topic', '/ggcnn/out/command')
+CAMERA_INFO_TOPIC = rospy.get_param('~camera_info_topic', '/camera/depth/camera_info')
 CART_VELO_TOPIC = rospy.get_param('~cartesian_velocity_topic', '/m1n6s200_driver/in/cartesian_velocity')
 START_FORCE_SRV = rospy.get_param('~start_force_srv', '/m1n6s200_driver/in/start_force_control')
 STOP_FORCE_SRV = rospy.get_param('~stop_force_srv', '/m1n6s200_driver/in/stop_force_control')
@@ -48,6 +55,22 @@ tf_listener = None
 # 固定的Home位置（根据您的设置调整这些值）
 FIXED_HOME_POSITION = [0.0, -0.38, 0.35]  # x, y, z
 FIXED_HOME_ORIENTATION = [0.99, 0.0, 0.0, np.sqrt(1 - 0.99**2)]  # x, y, z, w
+
+def camera_info_callback(msg):
+    """获取相机内参的回调函数"""
+    global CAMERA_INTRINSICS
+    if CAMERA_INTRINSICS['fx'] is None:
+        CAMERA_INTRINSICS['fx'] = msg.K[0]
+        CAMERA_INTRINSICS['cx'] = msg.K[2]
+        CAMERA_INTRINSICS['fy'] = msg.K[4]
+        CAMERA_INTRINSICS['cy'] = msg.K[5]
+        rospy.loginfo(f"接收到相机内参: fx={CAMERA_INTRINSICS['fx']}, fy={CAMERA_INTRINSICS['fy']}, cx={CAMERA_INTRINSICS['cx']}, cy={CAMERA_INTRINSICS['cy']}")
+
+def ggcnn_command_callback(msg):
+    """GGCNN命令回调函数"""
+    global LATEST_GGCNN_CMD, LATEST_GGCNN_TIME
+    LATEST_GGCNN_CMD = list(msg.data)
+    LATEST_GGCNN_TIME = rospy.Time.now()
 
 def check_tf_connection():
     """检查TF连接是否正常"""
@@ -191,8 +214,13 @@ def calculate_gripper_position(grip_width, curr_z):
 
 def execute_grasp():
     """执行抓取操作"""
-    global MOVING, CURR_Z
+    global MOVING, CURR_Z, CAMERA_INTRINSICS
     
+    # 0. 检查相机内参
+    if CAMERA_INTRINSICS['fx'] is None:
+        rospy.logerr("尚未获取相机内参，无法执行抓取")
+        return False
+        
     # 1. 检查TF连接
     if not check_tf_connection():
         rospy.logerr("TF连接检查失败，无法执行抓取")
@@ -205,13 +233,62 @@ def execute_grasp():
     
     # 3. 获取抓取命令
     try:
-        rospy.loginfo("等待GGCNN抓取命令...")
-        msg = rospy.wait_for_message(CMD_TOPIC, std_msgs.msg.Float32MultiArray, timeout=10.0)
-        d = list(msg.data)
-        rospy.loginfo("接收到抓取命令: [x=%.3f, y=%.3f, z=%.3f, ang=%.3f, width=%.3f]", 
-                     d[0], d[1], d[2], d[3], d[4])
-    except rospy.ROSException as e:
-        rospy.logerr("等待GGCNN命令超时: %s", str(e))
+        rospy.loginfo("等待新鲜的GGCNN抓取命令...")
+        
+        # 等待最多5秒以获取新鲜数据（2秒内的数据视为有效）
+        wait_start = rospy.Time.now()
+        got_fresh_data = False
+        
+        while (rospy.Time.now() - wait_start).to_sec() < 5.0:
+            if LATEST_GGCNN_TIME is not None:
+                age = (rospy.Time.now() - LATEST_GGCNN_TIME).to_sec()
+                if age < 2.0:
+                    got_fresh_data = True
+                    break
+            rospy.sleep(0.1)
+            
+        if not got_fresh_data:
+            if LATEST_GGCNN_TIME is None:
+                rospy.logerr("从未接收到GGCNN命令")
+            else:
+                rospy.logerr("GGCNN命令数据陈旧 (延迟: %.2fs)，相机可能卡住或检测失败", 
+                             (rospy.Time.now() - LATEST_GGCNN_TIME).to_sec())
+            return False
+
+        d = LATEST_GGCNN_CMD
+        # 数据格式变换: [u, v, z_depth, ang, width, depth_center]
+        # 执行坐标转换：像素坐标 -> 相机坐标
+        # d[0]=u, d[1]=v, d[2]=z
+        u = d[0]
+        v = d[1]
+        z_depth = d[2]
+        
+        fx = CAMERA_INTRINSICS['fx']
+        fy = CAMERA_INTRINSICS['fy']
+        cx = CAMERA_INTRINSICS['cx']
+        cy = CAMERA_INTRINSICS['cy']
+        
+        # 坐标变换公式
+        x = (u - cx) / fx * z_depth
+        y = (v - cy) / fy * z_depth
+        z = z_depth
+        
+        # 更新数据用于后续处理
+        # 原始数据包含 [u, v, z, ang, width, depth_center]
+        # 我们现在有了 [x, y, z]，ang(d[3]), width(d[4])
+        
+        rospy.loginfo("坐标转换: Pixel(u=%.1f, v=%.1f) -> Camera(x=%.3f, y=%.3f, z=%.3f) using Intrin(fx=%.1f, fy=%.1f, cx=%.1f, cy=%.1f)",
+                      u, v, x, y, z, fx, fy, cx, cy)
+        
+        rospy.loginfo("接收到抓取命令 (延迟: %.3fs): [x=%.3f, y=%.3f, z=%.3f, ang=%.3f, width=%.3f]", 
+                     (rospy.Time.now() - LATEST_GGCNN_TIME).to_sec(),
+                     x, y, z, d[3], d[4])
+                     
+        # 调试：检查数据是否变化
+        rospy.loginfo("RAW GGCNN DATA: %s", str(d))
+        
+    except Exception as e:
+        rospy.logerr("获取GGCNN命令异常: %s", str(e))
         return False
     
     # 4. 设置夹爪到预抓取宽度
@@ -229,9 +306,9 @@ def execute_grasp():
     try:
         # 相机坐标系中的抓取位姿
         gp_camera = geometry_msgs.msg.Pose()
-        gp_camera.position.x = d[0]
-        gp_camera.position.y = d[1]
-        gp_camera.position.z = d[2]
+        gp_camera.position.x = x
+        gp_camera.position.y = y
+        gp_camera.position.z = z
         gp_camera.orientation.w = 1.0
 
         # 转换到基坐标系
@@ -240,6 +317,9 @@ def execute_grasp():
             if gp_base is None:
                 rospy.logerr("坐标变换失败")
                 return False
+            
+            rospy.loginfo("基坐标系下的抓取位姿: x=%.3f, y=%.3f, z=%.3f", 
+                         gp_base.position.x, gp_base.position.y, gp_base.position.z)
         except Exception as e:
             rospy.logerr("坐标变换异常: %s", str(e))
             return False
@@ -354,6 +434,11 @@ def execute_grasp():
     
     # 8. 抬升到安全高度
     try:
+        # 停止力控制，必须在位置控制前执行！
+        if wait_for_service(STOP_FORCE_SRV):
+            stop_force_srv.call(kinova_msgs.srv.StopRequest())
+            rospy.loginfo("已停止力控制 (准备抬升)")
+
         # 创建抬升位姿（保持当前位置，只增加Z高度）
         lift_pose = geometry_msgs.msg.Pose()
         lift_pose.position.x = gp_base.position.x
@@ -363,12 +448,7 @@ def execute_grasp():
         
         rospy.loginfo("抬升机械臂到安全高度")
         if not move_to_pose_with_retry(lift_pose):
-            rospy.logwarn("抬升运动失败，尝试停止力控制")
-        
-        # 停止力控制
-        if wait_for_service(STOP_FORCE_SRV):
-            stop_force_srv.call(kinova_msgs.srv.StopRequest())
-            rospy.loginfo("已停止力控制")
+            rospy.logwarn("抬升运动失败")
             
     except Exception as e:
         rospy.logerr("抬升运动失败: %s", str(e))
@@ -389,6 +469,10 @@ def main():
     # 机器人状态监控
     wrench_sub = rospy.Subscriber(WRENCH_TOPIC, geometry_msgs.msg.WrenchStamped, robot_wrench_callback, queue_size=1)
     position_sub = rospy.Subscriber(POSE_TOPIC, geometry_msgs.msg.PoseStamped, robot_position_callback, queue_size=1)
+    cmd_sub = rospy.Subscriber(CMD_TOPIC, std_msgs.msg.Float32MultiArray, ggcnn_command_callback, queue_size=1)
+    
+    # 添加相机内参订阅
+    camera_info_sub = rospy.Subscriber(CAMERA_INFO_TOPIC, CameraInfo, camera_info_callback, queue_size=1)
     
     rospy.loginfo("GGCNN开环抓取节点已启动")
     rospy.loginfo("基坐标系: %s", BASE_FRAME)

@@ -57,6 +57,7 @@ def move_to_position(position, orientation):
 
     goal = kinova_msgs.msg.ArmPoseGoal()
     goal.pose.header = std_msgs.msg.Header(frame_id=base_frame)
+    goal.pose.header.stamp = rospy.Time.now()
     goal.pose.pose.position = geometry_msgs.msg.Point(
         x=position[0], y=position[1], z=position[2])
     goal.pose.pose.orientation = geometry_msgs.msg.Quaternion(
