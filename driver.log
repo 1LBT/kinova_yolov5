@@ -1,7 +1,0 @@
-[0m[INFO] [1766988270.546712493]: kinova_robotType is m1n6s200.[0m
-[0m[INFO] [1766988270.547357724]: kinova_robotName is m1n6s200.[0m
-[0m[INFO] [1766988270.551018398]: Initializing Kinova USB API (header version: 50300, library version: 5.2.0)[0m
-[0m[INFO] [1766988270.850553678]: Found 1 device(s), using device at index 0 (model: Mico Service, serial number: PJ00650019432363-0 , code version: 393733, code revision: 6)[0m
-[0m[INFO] [1766988270.939537657]: Initializing fingers...this will take a few seconds and the fingers should open completely[0m
-[0m[INFO] [1766988273.242310565]: The arm is ready to use.[0m
-m1n6s200_joint_1 m1n6s200_joint_2 m1n6s200_joint_3 m1n6s200_joint_4 m1n6s200_joint_5 m1n6s200_joint_6 
